@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Premium Cannabis Shop</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+  <!-- Header -->
+<header class="header">
+  <img src="logo.jpg" alt="Premium Cannabis Shop Logo" class="logo">
+  <h1>Premium Cannabis Shop</h1>
+  <nav>
+    <a href="#about">About Us</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#order">Order Cannabis</a>
+    <a href="#accessories">Order Accessories</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <h2>About Us</h2>
+    <p>At Premium Cannabis Shop, we pride ourselves on offering the best-quality cannabis and accessories. Our mission is to provide a premium experience for our customers with exceptional service.</p>
+  </section>
+
+  <!-- Gallery Section -->
+  <section id="gallery" class="section">
+    <h2>Weed Gallery</h2>
+    <div class="gallery-container">
+             <img src="imgg/gg1.jpg">
+        <img src="imgg/gg2.jpg">
+        <img src="imgg/gg3.jpg">
+        <img src="imgg/gg4.jpg">
+        <img src="imgg/gg5.jpg">
+        <img src="imgg/gg6.jpg">
+        <img src="imgg/gg7.jpg">
+        <img src="imgg/gg8.jpg">
+        <img src="imgg/gg9.jpg">
+        <img src="imgg/gg10.jpg">
+        <img src="imgg/gg11.jpg">
+        <img src="imgg/gg12.jpg">
+        <img src="imgg/gg13.jpg">
+        <img src="imgg/gg14.jpg">
+        <img src="imgg/gg15.jpg">
+        <img src="imgg/gg16.jpg">
+        <img src="imgg/gg17.jpg">
+        <img src="imgg/gg18.jpg">
+        <img src="imgg/gg19.jpg">
+        <img src="imgg/gg20.jpg">
+        <img src="imgg/gg21.jpg">
+        <img src="imgg/gg22.jpg">
+        <img src="imgg/gg23.jpg">
+        <img src="imgg/gg24.jpg">
+        <img src="imgg/gg25.jpg">
+        <img src="imgg/gg26.jpg">
+        <img src="imgg/gg27.jpg">
+        <img src="imgg/gg28.jpg">
+        <img src="imgg/gg29.jpg">
+        <img src="imgg/gg30.jpg">
+        <img src="imgg/gg31.jpg">
+        <img src="imgg/gg32.jpg">
+        <img src="imgg/gg.jpg">
+        <img src="imgg/gg34.jpg">
+        <img src="imgg/gg35.jpg">
+        <img src="imgg/gg36.jpg">
+        <img src="imgg/gg37.jpg">
+        <img src="imgg/gg38.jpg">
+        <img src="imgg/gg39.jpg">
+        <img src="imgg/gg40.jpg">
+        <img src="imgg/gg41.jpg">
+        <img src="imgg/gg42.jpg">
+        <img src="imgg/gg43.jpg">
+        <img src="imgg/gg44.jpg">
+        <img src="imgg/gg45.jpg">
+        <img src="imgg/gg46.jpg">
+        <img src="imgg/gg47.jpg">
+        <img src="imgg/gg48.jpg">
+        <img src="imgg/gg49.jpg">
+        <img src="imgg/gg50.jpg">
+        <img src="imgg/gg51.jpg">
+        <img src="imgg/gg52.jpg">
+        <img src="imgg/gg53.jpg">
+        <img src="imgg/gg54.jpg">
+        <img src="imgg/gg55.jpg">
+        <img src="imgg/gg56.jpg">
+        <img src="imgg/gg57.jpg">
+        <img src="imgg/gg58.jpg">
+        <img src="imgg/gg59.jpg">
+        <img src="imgg/gg60.jpg">
+        <img src="imgg/gg61.jpg">
+        <img src="imgg/gg62.jpg">
+        <img src="imgg/gg63.jpg">
+        <img src="imgg/gg64.jpg">
+      <img src="img6.jpg">
+      <img src="img5.jpeg" alt="Cannabis Bud">
+      <img src="img4.jpg" alt="Cannabis Accessories">
+    </div>
+  </section>
+
+  <!-- Order Cannabis Section -->
+  <section id="order" class="section">
+    <h2>Order Cannabis</h2>
+    <form id="orderForm">
+      <div class="form-group">
+        <label for="product">Select Cannabis Product:</label>
+        <select id="product" name="product">
+          <option value="Gram">Gram (1g) - $25</option>
+          <option value="Eighth">Eighth (⅛ Oz) - $60</option>
+          <option value="Quarter">Quarter Ounce (¼ Oz) - $110</option>
+          <option value="Half">Half Ounce (½ Oz) - $220</option>
+          <option value="Ounce">Ounce (Oz) - $400</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="quantity">Quantity:</label>
+        <input type="number" id="quantity" name="quantity" min="1" value="1">
+      </div>
+
+      <div class="form-group">
+        <label for="totalPrice">Total Price:</label>
+        <input type="text" id="totalPrice" readonly>
+      </div>
+
+      <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+
+      <div class="form-group">
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+
+      <div class="form-group">
+        <label for="address">Delivery Address | Specify Strain As Well:</label>
+        <textarea id="address" name="address" required></textarea>
+      </div>
+
+      <button type="submit" class="btn">Place Order</button>
+    </form>
+  </section>
+  
+   <!-- Gallery Section -->
+  <section id="gallery" class="section">
+    <h2>Weed Accessories Gallery</h2>
+    <div class="gallery-container">
+      <img src="img/canna.jpg">
+        <img src="img/canna1.jpg">
+        <img src="img/canna2.jpg">
+        <img src="img/canna3.jpg">
+        <img src="img/canna4.jpg">
+        <img src="img/canna5.jpg">
+        <img src="img/canna6.jpg">
+        <img src="img/canna7.jpg">
+        <img src="img/canna8.jpg">
+        <img src="img/canna9.jpg">
+        <img src="img/canna10.jpg">
+        <img src="img/canna11.jpg">
+        <img src="img/canna12.jpg">
+        <img src="img/canna13.jpg">
+        <img src="img/canna14.jpg">
+        <img src="img/canna15.jpg">
+        <img src="img/canna16.jpg">
+        <img src="img/canna17.jpg">
+        <img src="img/canna18.jpg">
+        <img src="img/canna19.jpg">
+        <img src="img/canna20.jpg">
+        <img src="img/canna21.jpg">
+        <img src="img/canna22.jpg">
+        <img src="img/canna23.jpg">
+        <img src="img/canna24.jpg">
+        <img src="img/canna25.jpg">
+        <img src="img/canna26.jpg">
+        <img src="img/canna27.jpg">
+        <img src="img/canna28.jpg">
+        <img src="img/canna29.jpg">
+        <img src="img/canna30.jpg">
+        <img src="img/canna31.jpg">
+        <img src="img/canna32.jpg">
+        <img src="img/canna33.jpg">
+        <img src="img/canna34.jpg">
+        <img src="img/canna35.jpg">
+        <img src="img/canna36.jpg">
+        <img src="img/canna37.jpg">
+        <img src="img/canna38.jpg">
+        <img src="img/canna39.jpg">
+        <img src="img/canna40.jpg">
+        <img src="img/canna41.jpg">
+        <img src="img/canna42.jpg">
+        <img src="img/canna43.jpg">
+        <img src="img/canna44.jpg">
+        <img src="img/canna45.jpg">
+        <img src="img/canna46.jpg">
+        <img src="img/canna47.jpg">
+        <img src="img/canna48.jpg">
+        <img src="img/canna49.jpg">
+        <img src="img/canna50.jpg">
+        <img src="img/canna51.jpg">
+        <img src="img/canna52.jpg">
+        <img src="img/canna53.jpg">
+        <img src="img/canna54.jpg">
+        <img src="img/canna55.jpg">
+        <img src="img/canna56.jpg">
+        <img src="img/canna57.jpg">
+        <img src="img/canna58.jpg">
+        <img src="img/canna59.jpg">
+        <img src="img/canna60.jpg">
+        <img src="img/canna61.jpg">
+        <img src="img/canna62.jpg">
+      <img src="img1.jpg" alt="Cannabis Bud">
+      <img src="img2.jpeg" alt="Cannabis Accessories">
+    </div>
+  </section>
+
+  <!-- Accessories Order Section -->
+  <section id="accessories" class="section">
+    <h2>Order Accessories</h2>
+    <form id="accessoriesForm">
+      <div class="form-group">
+        <label for="accessory">Select Accessory:</label>
+        <select id="accessory" name="accessory">
+          <option value="Grinder">Grinder - $15</option>
+          <option value="Rolling Papers">Rolling Papers - $5</option>
+          <option value="Bong">Bong - $50</option>
+          <option value="Vape Pen">Vape Pen - $80</option>
+          <option value="Lighter">Lighter - $3</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="accessoryQuantity">Quantity:</label>
+        <input type="number" id="accessoryQuantity" name="accessoryQuantity" min="1" value="1">
+      </div>
+
+      <div class="form-group">
+        <label for="accessoryTotalPrice">Total Price:</label>
+        <input type="text" id="accessoryTotalPrice" readonly>
+      </div>
+
+      <div class="form-group">
+        <label for="accessoryName">Your Name:</label>
+        <input type="text" id="accessoryName" name="accessoryName" required>
+      </div>
+
+      <div class="form-group">
+        <label for="accessoryEmail">Your Email:</label>
+        <input type="email" id="accessoryEmail" name="accessoryEmail" required>
+      </div>
+
+      <div class="form-group">
+        <label for="accessoryAddress">Delivery Address | Specify Accessories As Well:</label>
+        <textarea id="accessoryAddress" name="accessoryAddress" required></textarea>
+      </div>
+
+      <button type="submit" class="btn">Order Accessory</button>
+    </form>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <h2>Contact Us</h2>
+    <p>Email: <a href="mailto:contact@cannabisshop.com">contact@cannabisshop.com</a></p>
+    <p><a> 🇺🇲 General, Colorado, USA</a> <em><span style="color: brown;"><strong>world-wide-private merchant</strong></span></em></p>
+    <p>Phone: (123) 456-7890</p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
